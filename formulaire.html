@@ -9,7 +9,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
 
     <title>JeuxMemory</title>
   </head>
@@ -49,37 +49,35 @@
       <div class="container d-flex row container_noir">
     <!-- <div id="container_noir"> -->
         <div class="description">
-          <p>
+          
             <br>
-            Bienvenue sur le site du Memory de l'ENI.<br>
-            Venez jouez avec nous et faite le meilleur score possible.
+            <h2 class="text-center"> Inscrivez-vous.</h2>
             <br>
-            <br>
-            <B>  Règle du jeu :</B>
-            <br>
-            <ul style="list-style-type: disc;">
-                <li> retournez 2 cartes. Si les images sont identiques, le jeu
-                    laisse les cartes visibles.
-                </li>
-                <li> Si les images sont différentes, les cartes se retournent faces cachées là où elles étaients</li>
-            <li> La partie est terminée lorsque toutes les cartes ont été assemblées par paires</li>
-            </ul>
-          </p>
-          <!-- logo -->
-           <div class="d-flex justify-content-center imageACentrer">
-          <img 
-          id="imageLegume"
-          src="ressources1/memory-legume/memory_detail.png"
-          width="250px"
-          alt="logo_small"
-          title="logo_small"
-        /></div>
-        <p><br>Si vous voulez vous souvenir de votr score. Inscrivez-vous via le formulaire.<br>
-            Le jeu garde les <b>5 meilleurs</b> score.<br>
-            Si vous voulez relancer une partie, cliquez sur  <b>la barre espace</b>.
-        </p>
-        
-        
+           <p>Nom d'utilisateur</p> 
+           
+            <input type="text" id="prenom" name="prenom" placeholder="3 caractères minimum"
+            pattern="[A-Za-z]{3,}" 
+            >
+        <hr>
+       
+           <p>Entrez votre email</p> 
+           
+            <input type="email" id="email" name="email" placeholder="Votre mail"
+            >
+        <hr>
+
+        <p>Mot de passe</p> 
+        <input type="password" 
+        id="mdp" 
+        name="mdp" 
+        placeholder="Votre mot de passe"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" >
+        <hr>
+<p>Au moins un symbol en un chiffre, ainsi que 6 caractères minimum</p>
+
+
+
+
         </div>
 
       

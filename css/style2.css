@@ -1,0 +1,94 @@
+body {
+
+    .angled-gradient {
+        background: linear-gradient(140deg, rgba(104, 104, 205, 0.902), rgb(133, 231, 178));
+    }
+
+    .stacked-linear {
+        background:
+            linear-gradient(217deg, rgba(132, 228, 140, 0.8), rgba(255, 0, 0, 0.103) 70.71%),
+            linear-gradient(127deg, rgba(138, 203, 138, 0.8), rgba(169, 18, 131, 0) 70.71%),
+            linear-gradient(336deg, rgba(141, 131, 231, 0.8), rgb(0 0 255 / 30%) 70.71%);
+    }
+}
+
+
+
+h1 #memory {
+    color: rgb(253, 243, 252);
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px pink;
+}
+
+
+
+h1 #ENI {
+    font-weight: normal;
+}
+
+
+#imageLegume {
+
+    width: 80%;
+
+}
+
+
+.description {
+    color: antiquewhite;
+    text-align: left;
+
+}
+
+.container_noir {
+
+    display: block;
+    border-radius: 15px;
+    width: 60%;
+    border: 1px solid #676767;
+    background: rgb(31, 31, 31);
+}
+
+.navigation {
+
+    display: flex;
+    /* Transformation en flexbox */
+    /* Suppression des marges internes */
+    justify-content: left;
+
+}
+
+.navigation li {
+    list-style-type: none;
+
+}
+
+.navigation a {
+    display: block;
+    min-width: 100%;
+
+    margin: 0.2rem;
+    /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;
+    /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;
+    /* Centrage du texte */
+    background-color: #282828;
+    /* Couleur d'arrière-plan */
+    color: #fff;
+    /* Couleur du texte */
+    text-decoration: none;
+    /* Suppression du soulignement */
+    border: 1px solid #676767;
+    /* Ajout d'une bordure */
+    border-radius: 4px;
+}
+
+.navigation a:hover {
+
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+}
+
+
