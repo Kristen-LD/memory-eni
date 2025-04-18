@@ -1,16 +1,10 @@
-body {
-
-    .angled-gradient {
-        background: linear-gradient(140deg, rgba(104, 104, 205, 0.902), rgb(133, 231, 178));
-    }
-
-    .stacked-linear {
-        background:
-            linear-gradient(217deg, rgba(132, 228, 140, 0.8), rgba(255, 0, 0, 0.103) 70.71%),
-            linear-gradient(127deg, rgba(138, 203, 138, 0.8), rgba(169, 18, 131, 0) 70.71%),
-            linear-gradient(336deg, rgba(141, 131, 231, 0.8), rgb(0 0 255 / 30%) 70.71%);
-    }
+.stacked-linear {
+    background:
+        linear-gradient(217deg, rgba(132, 228, 140, 0.8), rgba(255, 0, 0, 0.103) 70.71%),
+        linear-gradient(127deg, rgba(138, 203, 138, 0.8), rgba(169, 18, 131, 0) 70.71%),
+        linear-gradient(336deg, rgba(141, 131, 231, 0.8), rgb(0 0 255 / 30%) 70.71%);
 }
+
 
 
 
@@ -25,14 +19,6 @@ h1 #memory {
 h1 #ENI {
     font-weight: normal;
 }
-
-
-#imageLegume {
-
-    width: 80%;
-
-}
-
 
 .description {
     color: antiquewhite;
@@ -52,8 +38,6 @@ h1 #ENI {
 .navigation {
 
     display: flex;
-    /* Transformation en flexbox */
-    /* Suppression des marges internes */
     justify-content: left;
 
 }
@@ -82,6 +66,7 @@ h1 #ENI {
     border: 1px solid #676767;
     /* Ajout d'une bordure */
     border-radius: 4px;
+    /* Casse les angles */
 }
 
 .navigation a:hover {
@@ -92,3 +77,74 @@ h1 #ENI {
 }
 
 
+input {
+    color: aliceblue;
+    background-color: rgb(31, 31, 31);
+    border: none;
+
+
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border-radius: 4px;
+    width: 25%;
+
+}
+
+#phraseCachée,#phraseCachée2,#phraseCachée3,#phraseCachée4 {
+    display: none;
+}
+
+#error, #error2, #error3, #error4 {
+    display: none;
+   
+  }
+
+#valid, #valid2, #valid3, #valid4 {
+    display: none;
+  }
+
+
+ 
+      #icon,#icon2,#icon3,#icon4{
+        display: flex;
+      }  
+     
+
+      #diff1 {
+        border-top: 8px solid rgb(255, 119, 0); /* 2px de large, couleur rouge */
+        width: 30%; /* La largeur de la ligne est de 100% de l'élément parent */
+        border-radius: 1px;  
+        display: none;
+    }
+ 
+  
+    #diff2 {
+        border-top: 8px solid rgb(255, 255, 0); /* 2px de large, couleur rouge */
+        width: 30%; /* La largeur de la ligne est de 100% de l'élément parent */
+        border-radius: 1px;  
+        margin-left:10px;
+        margin-right:10px;
+        display: none;
+    }
+ 
+    #diff3 {
+        border-top: 8px solid rgb(17, 255, 0); /* 2px de large, couleur rouge */
+        width: 30%; /* La largeur de la ligne est de 100% de l'élément parent */
+        border-radius: 1px;  
+        display: none;
+    }
+ .blockCouleur{
+    display : flex;
+    justify-content: center;
+   
+ }
+
+ #messageDiff1, #messageDiff2, #messageDiff3 {
+    display: flex;
+    justify-content: center;
+ }

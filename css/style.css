@@ -1,8 +1,4 @@
-body {
 
-    .angled-gradient {
-        background: linear-gradient(140deg, rgba(104, 104, 205, 0.902), rgb(133, 231, 178));
-    }
 
     .stacked-linear {
         background:
@@ -10,7 +6,7 @@ body {
             linear-gradient(127deg, rgba(138, 203, 138, 0.8), rgba(169, 18, 131, 0) 70.71%),
             linear-gradient(336deg, rgba(141, 131, 231, 0.8), rgb(0 0 255 / 30%) 70.71%);
     }
-}
+
 
 
 
@@ -24,6 +20,7 @@ h1 #memory {
 
 h1 #ENI {
     font-weight: normal;
+    
 }
 
 
@@ -44,7 +41,7 @@ h1 #ENI {
 
     display: block;
     border-radius: 15px;
-    width: 60%;
+    width: 70%;
     border: 1px solid #676767;
     background: rgb(31, 31, 31);
 }
@@ -52,6 +49,7 @@ h1 #ENI {
 .navigation {
 
     display: flex;
+    
     /* Transformation en flexbox */
     /* Suppression des marges internes */
     justify-content: left;
